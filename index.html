@@ -15,11 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <title>Rinterio</title>
     <style>
-            .manrope-font {
+        .manrope-font {
             font-family: "Manrope", sans-serif;
-            }
-        </style>
-    
+        }
+    </style>
+
 </head>
 
 <body class="manrope-font bg-stone-100">
@@ -46,8 +46,8 @@
 
                     </ul>
                 </div>
-                <div class="w-9  bg-lime-300 rounded-full p-2 "><i
-                    class="-rotate-45 fa-solid fa-arrow-right"></i></div>
+                <div class="w-9  bg-lime-300 rounded-full p-2 text-center"><i
+                        class="-rotate-45 fa-solid fa-arrow-right"></i></div>
                 <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
@@ -60,10 +60,14 @@
                 </ul>
             </div>
             <div class="navbar-end flex space-x-5">
-                <i class=" fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <a class="btn text-black bg-[#ABEF5F] rounded-[25px] text-[20px] font-bold">Book Consult <div class="w-9  bg-lime-300 rounded-full p-2 "><i
-                        class="-rotate-45 fa-solid fa-arrow-right"></i></div></a>
+                <div class="space-x-5 hidden lg:flex">
+                    <i class=" fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a class="btn text-black bg-[#ABEF5F] rounded-[25px] text-[20px] font-bold">Book Consult <div
+                        class="w-9  bg-black text-white rounded-full p-2 "><i
+                            class="-rotate-45 fa-solid fa-arrow-right"></i>
+                    </div></a>
             </div>
         </div>
 
@@ -73,25 +77,69 @@
             <div class=" flex items-center justify-center">
                 <img src="assets/banner.png" alt="">
             </div>
-            <h1 class="text-3xl text-center font-extrabold lg:text-6xl">A barn house of this design has a <br> striking appearance</h1>
-            
+            <h1 class="text-3xl text-center font-extrabold lg:text-6xl">A barn house of this design has a <br> striking
+                appearance</h1>
+
             <div class="flex justify-center items-center">
-                <p class="font-medium text-base opacity-80">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,<br> sleek metal accents, and large windows that flood the space with natural light.</p>
+                <p class="font-medium text-base opacity-80">The barn house captivates with its blend of rustic charm and
+                    modern sophistication, featuring weathered wood,<br> sleek metal accents, and large windows that
+                    flood the space with natural light.</p>
             </div>
             <div class="w-full">
-                <button class="px-5  btn bg-primary-clr font-extrabold text-xl rounded-3xl bg-[#ABEF5F] ">View Details<div class="w-9  bg-lime-300 rounded-full p-2">
-                    <i class="-rotate-45 fa-solid fa-arrow-right"></i>
-                </div></button>
+                <button class="px-5  btn bg-primary-clr font-extrabold text-xl rounded-3xl bg-[#bee591] ">View Details
+                    <div class="w-9  bg-lime-300 rounded-full p-2">
+                        <i class="-rotate-45 fa-solid fa-arrow-right"></i>
+                    </div>
+                </button>
 
         </section>
 
     </header>
 
-    <main>
+    <main class=" mx-auto bg-stone-200">
         <!-- We design thoughtful section -->
-         <section>
-            
-         </section>
+        <section class="container mx-auto py-20">
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+                <div>
+                    <div>
+                        <button class="bg-white text-black font-semibold text-xl p-2 rounded-full ml-10 lg:ml-0"><i
+                                class="fa-solid fa-arrow-right"></i> About us</button>
+                        <h1 class="text-5xl font-bold mt-3 ml-6 lg:ml-0">We design thoughtful, <br>liveable spaces</h1>
+                        <p class="py-6 mx-6 lg:mx-4 opacity-70 ">
+                            The barn house captivates with its blend of rustic charm and
+                            modernbr <br> sophistication, featuring weathered wood, sleek metal accents.
+                        </p>
+                    </div>
+                    <div class="flex rounded-lg border p-6 space-x-6 mb-3 bg-slate-100">
+                        <div>
+                            <img class="text-center" src="assets/commercial.png" alt="">
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-semibold mb-3">Commercial</h2>
+                            <p class="opacity-70">The barn house captivates with its blend <br> of rustic charm and
+                                modern.</p>
+                        </div>
+                    </div>
+                    <div class="flex rounded-lg border p-6 space-x-6 bg-slate-100">
+                        <div class="text-center items-center justify-center">
+                            <img src="assets/residential.png" alt="">
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-semibold mb-3">Residential</h2>
+                            <p class="opacity-70">The barn house captivates with its blend <br> of rustic charm and
+                                modern.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <img class="rounded-lg  shadow-2xl" src="assets/Rectangle.png" alt="">
+                </div>
+            </div>
+
+        </section>
 
     </main>
     <footer></footer>
